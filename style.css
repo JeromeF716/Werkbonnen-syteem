@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Helvetica;
+    color: #000000;
+}
+#header{
+    text-align: center;
+    font-size: 32px;
+    border-bottom: 1px solid #000000;
+    border-radius: 10px;
+}
+#werkbon{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+#werkbonInfo{
+    width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-top: none;
+}
+table{
+    border-collapse: collapse;
+}
+table td{
+    padding: 2; 
+    margin: 0;
+}
+.askedInfo{
+    background-color: lightblue;
+    width: 400px;
+}
+.givenInfo{
+    width: 600px;
+}
+.askedInfo1{
+    background-color: lightblue;
+    width: 235px;
+}
+.givenInfo1{
+    width: 600px;
+}
+td{
+    border-bottom: 1px solid #3366cc;
+}
+#form{
+    width: 750px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    border-top: none;
+    border-bottom: none;
+}
+h3{
+    background-color: #3366cc;
+    color: #ffffff;
+    font: lighter Helvetica;
+    font-size: 16px;
+    padding: 5px 2px;
+}
+label{
+	display: inline-block;
+  	width:200px;
+  	padding: 2px;
+    background-color: lightblue;
+}
+input  {
+    width: 250px;
+    border: 1px solid #000000;
+    padding: 1px;
+    margin-left: 2px;
+	height: 20px;
+	border-radius: 2px;
+}
+textarea{
+    width: 750px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    border-bottom: 1px solid #000000;
+    resize: none;
+}
+#select{
+    width: 250px;
+    border: 1px solid #000000;
+    padding: 1px;
+    margin-left: -2px;
+	height: 20px;
+	border-radius: 2px;
+}
+#submit{
+    width: 125px;
+    margin-bottom: 2px;
+    display: inline-block;
+    margin-left: 620px;
+    background-color: #ffffff;
+}
+#probleemOmschrijving{
+    padding: 2px;
+    background-color: lightblue;
+}
+#aantekening{
+    width: 650px;
+    margin-bottom: 2px;
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+}
+#tijdRegistr{
+    background-color: lightblue;
+}
+#uren{
+    display: inline-block;
+    margin: 1px;
+}
+#uren tr td{
+    width: 66px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid blue;
+    margin: 0px;
+}
+#uren tr #datum{
+    background-color: lightblue;
+}
+#uren tr #tdUren{
+    background-color: lightblue;
+}
+#uren tr #total{
+    height: 50px;
+    background-color: lightblue;
+    text-align: end;
+}
+#uren tr #totalEuro{
+    height: 50px;
+    background-color: lightblue;
+    text-align: left;
+}
+#accordering{
+    padding: 2px;
+}
+#aantekeningWerkgever{
+    width: 645px;
+    margin-bottom: 2px;
+    padding: 2px;
+    display: inline-block;
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+}
+#tableParaaf{
+    display: inline-block;
+    margin: 1px;
+}
+#tableParaaf tr td{
+    width: 66px;
+    height: 25px;
+    border: 1px solid blue;
+}
+#paraaf{
+    height: 75px;
+}
+#paraafTD{
+    text-align: center;
+    vertical-align: top;
+    font-size: 12px;
+}
+#radio{
+    width: 12px;
+    height: 12px;
+}
+#btn{
+    width: 125px;
+    margin-bottom: 2px;
+    display: inline-block;
+    margin-left: 620px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+footer{
+    border-top: 1px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+}
